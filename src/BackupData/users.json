@@ -1,0 +1,4 @@
+[
+    { "id": "captainA", "password": "captainA123", "purse": 1000, "team": "Team A" },
+    { "id": "captainB", "password": "captainB123", "purse": 1000, "team": "Team B" }
+  ]

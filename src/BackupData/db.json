@@ -1,0 +1,19 @@
+{
+  "teamA": {
+    "players": [],
+    "purse": 100
+  },
+  "teamB": {
+    "players": [],
+    "purse": 100
+  },
+  "auctionState": {
+    "currentPlayer": null,
+    "currentBid": 0,
+    "currentBidder": null,
+    "isAuctionLive": false
+  },
+  "auctionData": {
+    "passedPlayers": []
+  }
+}

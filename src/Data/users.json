@@ -1,0 +1,16 @@
+[
+  {
+    "id": "captainA",
+    "password": "captainA123",
+    "purse": 100,
+    "team": "Team A",
+    "photo": "/images/captainA.jpg"
+  },
+  {
+    "id": "captainB",
+    "password": "captainB123",
+    "purse": 100,
+    "team": "Team B",
+    "photo": "/images/captainB.jpg"
+  }
+]

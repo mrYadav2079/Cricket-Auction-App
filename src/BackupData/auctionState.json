@@ -1,0 +1,6 @@
+{
+    "currentPlayer": null,
+    "currentBid": 0,
+    "currentBidder": null,
+    "isAuctionLive": false
+  }

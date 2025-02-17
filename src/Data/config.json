@@ -1,0 +1,20 @@
+{
+    "teams": {
+      "teamA": {
+        "displayName": "Bam Bhole",
+        "captain": {
+          "captainA": {
+            "displayName": "Maddy"
+          }
+        }
+      },
+      "teamB": {
+        "displayName": "Maa Parwati",
+        "captain": {
+          "captainB": {
+            "displayName": "Rakesh"
+          }
+        }
+      }
+    }
+  }
