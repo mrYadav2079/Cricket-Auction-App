@@ -1,27 +1,27 @@
 {
   "Genuine Allrounders": [
-    { "name": "Manjit Yadav", "basePrice": 5, "image": "/images/Manjit.jpeg" },
-    { "name": "Ratnesh", "basePrice": 6, "image": "/images/Ratnesh.jpeg" },
-    { "name": "DG", "basePrice": 6, "image": "/images/DG.jpeg" },
-    { "name": "Maddy", "basePrice": 6, "image": "/images/Maddy.jpeg" },
-    { "name": "Deepak Raj", "basePrice": 6, "image": "/images/DeepakR.jpeg" },
-    { "name": "Govind", "basePrice": 6, "image": "/images/Govind.jpeg" }
+    { "name": "Manjit Yadav", "basePrice": 5, "image": "/images/Manjit.jpeg", "matches": 50, "runs": 1200, "wickets": 45 },
+    { "name": "Ratnesh", "basePrice": 6, "image": "/images/Ratnesh.jpeg", "matches": 60, "runs": 1500, "wickets": 50 },
+    { "name": "DG", "basePrice": 6, "image": "/images/DG.jpeg", "matches": 40, "runs": 1000, "wickets": 40 },
+    { "name": "Maddy", "basePrice": 6, "image": "/images/Maddy.jpeg", "matches": 45, "runs": 1100, "wickets": 35 },
+    { "name": "Deepak Raj", "basePrice": 6, "image": "/images/DeepakR.jpeg", "matches": 55, "runs": 1300, "wickets": 48 },
+    { "name": "Govind", "basePrice": 6, "image": "/images/Govind.jpeg", "matches": 50, "runs": 1250, "wickets": 47 }
   ],
   "Batting Allrounders": [
-    { "name": "Amit RLI", "basePrice": 4, "image": "/images/AmitRLI.jpeg" },
-    { "name": "Sanjay Yadav", "basePrice": 5, "image": "/images/Sanjay.jpeg" },
-    { "name": "Amit Singh", "basePrice": 5, "image": "/images/AmitS.jpeg" },
-    { "name": "Prabhat Singh", "basePrice": 5, "image": "/images/Prabhat.jpeg" },
-    { "name": "Prakash Singh", "basePrice": 6, "image": "/images/Prakash.jpeg" },
-    { "name": "Pulkit Prakash", "basePrice": 7, "image": "/images/Pulkit.jpeg" },
-    { "name": "Rajan Yadav", "basePrice": 7, "image": "/images/Rajan.jpeg" },
-    { "name": "Krishna Dubey", "basePrice": 7, "image": "/images/KrishnaD.jpeg" }
+    { "name": "Amit RLI", "basePrice": 4, "image": "/images/AmitRLI.jpeg", "matches": 30, "runs": 900, "wickets": 20 },
+    { "name": "Sanjay Yadav", "basePrice": 5, "image": "/images/Sanjay.jpeg", "matches": 40, "runs": 1100, "wickets": 25 },
+    { "name": "Amit Singh", "basePrice": 5, "image": "/images/AmitS.jpeg", "matches": 35, "runs": 950, "wickets": 22 },
+    { "name": "Prabhat Singh", "basePrice": 5, "image": "/images/Prabhat.jpeg", "matches": 38, "runs": 1000, "wickets": 28 },
+    { "name": "Prakash Singh", "basePrice": 6, "image": "/images/Prakash.jpeg", "matches": 42, "runs": 1050, "wickets": 30 },
+    { "name": "Pulkit Prakash", "basePrice": 7, "image": "/images/Pulkit.jpeg", "matches": 48, "runs": 1150, "wickets": 32 },
+    { "name": "Rajan Yadav", "basePrice": 7, "image": "/images/Rajan.jpeg", "matches": 50, "runs": 1200, "wickets": 35 },
+    { "name": "Krishna Dubey", "basePrice": 7, "image": "/images/KrishnaD.jpeg", "matches": 55, "runs": 1300, "wickets": 40 }
   ],
   "Bowling Allrounders": [
-    { "name": "Vishal Yadav", "basePrice": 3, "image": "/images/Vishal.jpeg" },
-    { "name": "SSY", "basePrice": 4, "image": "/images/SSY.jpeg" },
-    { "name": "Rakesh Jha", "basePrice": 5, "image": "/images/Rakesh.jpeg" },
-    { "name": "Krishan Mishra", "basePrice": 6, "image": "/images/Krishna.jpeg" },
-    { "name": "Saurabh", "basePrice": 9, "image": "/images/Saurabh.jpeg" }
+    { "name": "Vishal Yadav", "basePrice": 3, "image": "/images/Vishal.jpeg", "matches": 20, "runs": 300, "wickets": 10 },
+    { "name": "SSY", "basePrice": 4, "image": "/images/SSY.jpeg", "matches": 30, "runs": 500, "wickets": 15 },
+    { "name": "Rakesh Jha", "basePrice": 5, "image": "/images/Rakesh.jpeg", "matches": 40, "runs": 800, "wickets": 25 },
+    { "name": "Krishan Mishra", "basePrice": 6, "image": "/images/Krishna.jpeg", "matches": 50, "runs": 1000, "wickets": 30 },
+    { "name": "Saurabh", "basePrice": 9, "image": "/images/Saurabh.jpeg", "matches": 60, "runs": 1500, "wickets": 40 }
   ]
 }

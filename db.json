@@ -2,90 +2,62 @@
   "teamA": {
     "players": [
       {
-        "name": "Rakesh Jha",
-        "basePrice": 5,
-        "image": "/images/Rakesh.jpeg",
-        "soldFor": 11
-      },
-      {
-        "name": "Prakash Singh",
-        "basePrice": 6,
-        "image": "/images/Prakash.jpeg",
-        "soldFor": 9
-      },
-      {
-        "name": "Saurabh",
-        "basePrice": 9,
-        "image": "/images/Saurabh.jpeg",
-        "soldFor": 10
-      },
-      {
         "name": "Rajan Yadav",
         "basePrice": 7,
         "image": "/images/Rajan.jpeg",
-        "soldFor": 11
+        "soldFor": 10
       }
     ],
-    "purse": 59
+    "purse": 90
   },
   "teamB": {
     "players": [
       {
-        "name": "Krishna Dubey",
-        "basePrice": 7,
-        "image": "/images/KrishnaD.jpeg",
-        "soldFor": 11
-      },
-      {
-        "name": "Pulkit Prakash",
-        "basePrice": 7,
-        "image": "/images/Pulkit.jpeg",
-        "soldFor": 10
-      },
-      {
         "name": "Amit Singh",
         "basePrice": 5,
         "image": "/images/AmitS.jpeg",
-        "soldFor": 5
-      },
-      {
-        "name": "Amit RLI",
-        "basePrice": 4,
-        "image": "/images/AmitRLI.jpeg",
-        "soldFor": 6
-      },
-      {
-        "name": "Prabhat Singh",
-        "basePrice": 5,
-        "image": "/images/Prabhat.jpeg",
-        "soldFor": 6
-      },
-      {
-        "name": "Deepak Raj",
-        "basePrice": 6,
-        "image": "/images/DeepakR.jpeg",
         "soldFor": 10
+      },
+      {
+        "name": "Vishal Yadav",
+        "basePrice": 3,
+        "image": "/images/Vishal.jpeg",
+        "soldFor": 5
       }
     ],
-    "purse": 52
+    "purse": 85
   },
   "auctionState": {
-    "currentPlayer": null,
-    "currentBid": 0,
+    "currentPlayer": {
+      "name": "Krishna Dubey",
+      "basePrice": 7,
+      "image": "/images/KrishnaD.jpeg"
+    },
+    "currentBid": 7,
     "currentBidder": null,
     "isAuctionLive": true
   },
   "auctionData": {
     "passedPlayers": [
       {
+        "name": "Govind",
+        "basePrice": 6,
+        "image": "/images/Govind.jpeg"
+      },
+      {
+        "name": "Maddy",
+        "basePrice": 6,
+        "image": "/images/Maddy.jpeg"
+      },
+      {
         "name": "Ratnesh",
         "basePrice": 6,
         "image": "/images/Ratnesh.jpeg"
       },
       {
-        "name": "Govind",
-        "basePrice": 6,
-        "image": "/images/Govind.jpeg"
+        "name": "SSY",
+        "basePrice": 4,
+        "image": "/images/SSY.jpeg"
       }
     ]
   }

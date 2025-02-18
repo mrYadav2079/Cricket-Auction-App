@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Typography, Grid, Paper } from "@mui/material";
+import { Container, Typography, Grid, Paper, Box } from "@mui/material";
 import playersData from "./Data/players.json";
 import users from "./Data/users.json"; // Import users data
 import config from "./Data/config.json"; // Import config data
@@ -9,6 +9,7 @@ import SpinnerComponent from "./Components/SpinnerComponent";
 import BiddingComponent from "./Components/BiddingComponent";
 import AuctionView from "./Components/AuctionView";
 import TopBar from "./Components/TopBar"; // Import the TopBar component
+import PlayerCard from "./Components/PlayerCard";
 
 function App() {
   const [user, setUser] = useState(null);
@@ -17,6 +18,8 @@ function App() {
   const [auctionState, setAuctionState] = useState({ currentPlayer: null, currentBid: 0, currentBidder: null });
   const [passedPlayers, setPassedPlayers] = useState([]);
   const [allPlayers, setAllPlayers] = useState(playersData);
+
+  const dummyPlayer =  {  "name": "Pulkit Prakash", "basePrice": 7, "image": "/images/Pulkit.jpeg", "matches": 48, "runs": 1150, "wickets": 32  };
 
   // Fetch initial data from json-server
   useEffect(() => {
@@ -251,6 +254,11 @@ function App() {
         onLogout={handleLogout}
         getCaptainDisplayName={getCaptainDisplayName}
       /> {/* Add the TopBar component */}
+    <Container maxWidth="sm" sx={{ padding: '20px', background: 'white', minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <Box>
+        <PlayerCard player={dummyPlayer} />
+      </Box>
+    </Container>
       <Container>
         {!user ? (
           <Login onLogin={handleLogin} onGuestLogin={() => setUser({ id: "guest" })} />
